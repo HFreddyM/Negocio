@@ -12,10 +12,24 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.menu {
+  overflow: hidden;
+  background-color: rgb(18, 2, 2);
+  margin: 10px;
+}
+.menu a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:30px;
+}
   
   .form-register {
     width: 400px;
-    background: #17A73B;
+    background: #e0091d;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -32,11 +46,11 @@
   
   .controls {
     width: 100%;
-    background: #17A780;
+    background: #d64c50;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #25DF80;
+    border: 1px solid #bf101e;
     font-family: 'calibri';
     font-size: 18px;
     color: white;
@@ -62,7 +76,7 @@
   
   .form-register .botons {
     width: 100%;
-    background: #00A654;
+    background: #a3161e;
     border: none;
     padding: 12px;
     color: white;
